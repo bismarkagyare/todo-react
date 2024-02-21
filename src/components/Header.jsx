@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <div className='flex items-center'>
         <IoCheckmarkCircleOutline className='text-3xl text-green-500 mr-1' />
-        <span className='text-3xl font-semibold text-gray-800'>WhatToDo</span>
+        <span className='text-3xl text-gray-800 font-bold'>WhatToDo</span>
       </div>
       <div className='mr-4'>
         <MdOutlineDarkMode className='text-3xl text-gray-600' />
