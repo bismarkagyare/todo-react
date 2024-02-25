@@ -7,9 +7,13 @@ const App = () => {
   return (
     <div className='bg-slate-300'>
       <Header />
-      <div className='grid grid-cols-4'>
-        <Sidebar />
-        <Main />
+      <div className='grid grid-cols-4 gap-4'>
+        <div className='col-span-1'>
+          <Sidebar />
+        </div>
+        <div className='col-span-3'>
+          <Main />
+        </div>
       </div>
     </div>
   );
