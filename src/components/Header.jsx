@@ -5,7 +5,7 @@ import { MdOutlineDarkMode } from 'react-icons/md';
 
 const Header = () => {
   return (
-    <header className='flex justify-between items-center w-full h-16 bg-slate-100 shadow-md font-open-sans'>
+    <header className='flex justify-between items-center w-full h-16 bg-[#f2f3f5] shadow-md font-open-sans border-b-2 border-green-500'>
       <div className='ml-4'>
         <AiOutlineMenuFold className='text-3xl text-gray-600' />
       </div>
