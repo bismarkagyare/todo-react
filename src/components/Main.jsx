@@ -2,7 +2,7 @@ import React from 'react';
 
 const Main = () => {
   return (
-    <div>
+    <div className='bg-[#ececec]'>
       <div>Main content goes here</div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore iusto,

@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import Main from './components/Main';
 const App = () => {
   return (
-    <div className='bg-slate-300'>
+    <div>
       <Header />
       <div className='grid grid-cols-4 gap-4'>
         <div className='col-span-1'>
